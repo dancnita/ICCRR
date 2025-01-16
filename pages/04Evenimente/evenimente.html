@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICCRR</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" onclick="location.href='../../index.html';">
+        <p class="logo-text">
+          INSTITUTUL DE CERCETARI IN <br />CHIMIE "RALUCA RIPAN"
+        </p>
+        <img
+        src="../../assets/iccrr-logo.jpg"
+          alt="ICCRR Logo"
+          class="iccrr-logo"
+        />
+      </div>
+      <div class="desktop-nav-right-side">
+        <div class="lang-container">
+          <a href="#">RO&ensp;</a>
+          <a href="#">EN&ensp;</a>
+          <a href="#">HU</a>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="../../index.html" >Acasa</a></li>
+            <li><a href="../02Despre/despre.html" >Despre noi</a></li>
+            <li><a href="../03Cercetare/cercetare.html">Cercetare</a></li>
+            <li><a href="#" class="active-menu">Evenimente</a></li>
+            <li><a href="../05Noutati/noutati.html">Noutati</a></li>
+            <li><a href="../06Proiecte/projects.html">Proiecte</a></li>
+            <li><a href="../07Cariera/cariera.html">Cariera</a></li>
+            <li><a href="../08Contact/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img
+          src="./assets/iccrr-logo.jpg"
+          alt="ICCRR Logo"
+          class="iccrr-logo"
+        />
+      </div>
+      <div class="hamburger-nav-right-side">
+        <div class="lang-container">
+          <a href="#">RO&ensp;</a>
+          <a href="#">EN&ensp;</a>
+          <a href="#">HU</a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Acasa</a></li>
+            <li>
+              <a href="#experience" onclick="toggleMenu()">Despre noi</a>
+            </li>
+            <li><a href="#projects" onclick="toggleMenu()">Cercetare</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Evenimente</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Noutati</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Proiecte</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Cariera</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+      </div>
+      </div>
+    </nav>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Evenimente</h1>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="location.href='#eveniment1'">
+          <!-- onclick="window.open('./assets/resume-example.pdf')" -->
+          Eveniment1
+        </button>
+
+        <button class="btn btn-color-1" onclick="location.href='#eveniment2'">
+          Eveniment2
+        </button>
+      </div>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="../../assets/slides/pngimg.com - spider_man_PNG79.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="../../assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Eveniment 1</h3>
+              <p>2+ years <br />Feromoni</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="../../assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Eveniment2</h3>
+              <p>Lorem ipsum<br />Lorem Lorem Ipsum</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <h3>Eveniment1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+          <div class="text-container">
+            <br />
+            <h3>Eveniment2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: justify; padding: 4rem">
+      <div id="eveniment1">
+        <h3>Eveniment1</h3>
+        <p>
+          unde animi adipisci nihil laudantium blanditiis aliquam aut sapiente
+          dolorum reprehenderit consectetur possimus inventore deleniti vel!
+          Voluptatum, exercitationem. Saepe facere, totam ab, laboriosam quia ex
+          odit eos eveniet velit quo esse, mollitia soluta suscipit qui fugiat.
+          Sed esse similique doloremque sequi quos ratione quaerat rerum
+          voluptates est expedita numquam officia facere eos adipisci, qui
+          deserunt, dolorum aperiam blanditiis ab rem, ipsum modi aspernatur at!
+          Voluptates deleniti quisquam quas eligendi tenetur, dignissimos,
+          doloribus fugiat itaque omnis iure quaerat excepturi nesciunt sapiente
+          voluptatibus laborum, officia saepe veritatis quos quis! Molestiae
+          similique adipisci libero obcaecati vel aut cumque excepturi ab
+          molestias consectetur, nihil amet quis, ipsum sint quae odit natus
+          dolore! Tenetur voluptatem rem officia magnam qui voluptatum sequi
+          fuga iusto incidunt. Nesciunt perspiciatis voluptate culpa, assumenda,
+          consectetur pariatur laborum accusamus natus asperiores illo minus
+          recusandae sed. Ex iusto quam minus sequi ipsam quis culpa perferendis
+          ullam perspiciatis amet eligendi unde minima harum inventore, ratione
+          expedita maiores quae placeat enim laboriosam! A, libero esse saepe
+          quo est beatae veniam earum ut, iusto neque doloribus consequatur
+          molestias asperiores provident recusandae sed dicta. Qui quo, atque,
+          cum ex provident aspernatur voluptatibus est velit quos perspiciatis
+          dolor, eaque consectetur beatae cupiditate? Laboriosam laborum sint
+          voluptatibus doloremque quidem nostrum, omnis at inventore iusto
+          veritatis consectetur, accusamus similique rerum optio sequi aut sit
+          illum deserunt atque. Omnis facilis ab placeat cumque deserunt sint a
+          at ratione dolores fugiat sapiente eligendi, facere minima? Quisquam
+          atque dolores aliquam optio natus sit architecto itaque deleniti!
+          Itaque totam iusto esse ratione quia autem qui in ducimus consequatur,
+          animi atque quaerat mollitia, assumenda nulla expedita. Odio ipsam,
+          nostrum dolore quo molestias unde quibusdam odit eaque reiciendis
+          corporis laboriosam! Molestias laborum quos culpa dolor minus. Minus
+          quibusdam praesentium esse dicta temporibus laudantium quaerat
+          cupiditate dolores possimus dolorum commodi aspernatur exercitationem
+          tenetur eaque repellat iure assumenda, fugiat quos, vitae omnis.
+          Inventore autem aut consectetur error numquam aliquam! Doloribus earum
+          porro modi doloremque quas, quam cumque sapiente nisi quos sunt neque,
+          fuga itaque vero alias ipsam eius corrupti at magni nam eligendi
+          incidunt mollitia ab a! Nostrum voluptatem aspernatur perferendis
+          enim, deleniti consequuntur error sint optio expedita impedit qui
+          itaque quod inventore iste eos fuga ducimus tenetur? Consequuntur
+          inventore illum minima aliquam sapiente, quibusdam quos fugit velit
+          totam, corporis culpa temporibus voluptate repellendus quis voluptatum
+          ad saepe quo alias minus eos iusto beatae optio, aut laborum! Modi
+          ullam architecto consequuntur numquam unde dignissimos, minus dicta
+          deleniti nostrum minima libero odit, quas, nobis ipsa esse recusandae
+          dolores quidem et animi nam accusamus rerum. Ullam mollitia asperiores
+          incidunt dolor, odio quidem laborum at minima quo est vitae quasi
+          doloribus numquam aspernatur dolorum obcaecati. Ex, at dolore
+          voluptatem asperiores velit tenetur minima inventore quibusdam
+          incidunt laborum nobis et aliquam voluptates corrupti similique,
+          eveniet quas dolorem. Qui quam, cum reiciendis sit aperiam pariatur
+          minima porro nulla, magni dignissimos omnis quia unde error, sapiente
+          odio maiores eaque dolorem asperiores! Eum quasi distinctio beatae
+          animi alias repudiandae sunt doloribus. Nemo inventore voluptatem
+          dolore earum officia illum vitae qui. A nihil recusandae nostrum animi
+          assumenda asperiores at iste blanditiis voluptates illo omnis, amet
+          maxime sapiente reprehenderit tempore exercitationem esse? Cumque
+          incidunt debitis praesentium asperiores! Laudantium eaque quibusdam,
+          veritatis eligendi accusantium dolores! Quis nemo quo vitae possimus
+          alias atque sapiente blanditiis, asperiores voluptate hic nostrum non
+          harum, aliquid veritatis delectus sunt laboriosam, praesentium illo.
+          Debitis, saepe laborum! A earum dicta enim vero laboriosam consequatur
+          voluptates soluta. Est illo quod amet ipsam numquam, beatae dolorum
+          error ex provident omnis et blanditiis accusantium alias atque quia
+          consequatur reprehenderit ullam consequuntur recusandae labore eveniet
+          libero hic expedita. Reprehenderit sunt ratione in dolore debitis a
+          nostrum maiores officia repudiandae necessitatibus magni mollitia
+          odit, nulla dolor veniam ipsam nemo cumque sapiente amet fugiat cum
+          ipsum illo! Ut ducimus maiores iure consequuntur? Quisquam, repellat
+          hic! Totam minima voluptatum, odit nesciunt obcaecati corporis
+          accusantium consequatur iste ab ullam eveniet sit necessitatibus
+          exercitationem perferendis amet quisquam inventore, aliquam itaque
+          tenetur expedita debitis dolor. Rem qui pariatur illum, est quo
+          commodi tempora optio nisi nesciunt, ut a deleniti sit, placeat amet
+          sunt vel. Ipsum accusantium quam iure ab nam dolores cum pariatur
+          nihil, corporis quae voluptatem placeat magni natus ullam culpa
+          mollitia quibusdam sed rem nulla dicta harum aspernatur sequi quidem!
+          Assumenda quo, nobis enim quae vel repudiandae veritatis. Maxime quos
+          quibusdam nisi corrupti quasi nemo ratione laborum. Aliquam nemo,
+          officia dolores tempora eius voluptas delectus quos cumque sint quo,
+          dolore ad quasi voluptate provident reiciendis vitae possimus ex
+          nesciunt? Molestias praesentium alias, eligendi blanditiis eum velit
+          ratione! Consequatur corporis ducimus blanditiis sunt vitae optio
+          atque possimus, pariatur quas animi consequuntur soluta nihil, ipsum
+          quasi neque quod similique et, numquam nulla voluptatum omnis alias.
+          Et voluptate excepturi, placeat odio sint aut fugit nesciunt. Placeat,
+          tempore minima reiciendis sit error recusandae, dolore obcaecati
+          pariatur earum quaerat assumenda commodi dignissimos. Numquam, aliquam
+          molestiae qui error temporibus delectus deleniti rem fugiat ipsum eos
+          beatae sit, minima ex dignissimos totam natus vitae quasi? Excepturi
+          eos voluptates molestias, omnis error dolore nam asperiores porro
+          similique? Delectus vero vitae accusamus quibusdam. Dicta provident
+          nostrum quaerat rerum fugit animi suscipit delectus. Velit
+          necessitatibus voluptatem illo earum, quibusdam accusamus cum quos
+          illum. Consequatur veniam atque impedit sapiente nihil, voluptatem
+          voluptates autem vero accusantium ea? Dolor eligendi aut, nihil ipsam
+          odio aperiam doloribus molestias aliquid. Omnis odit nisi reiciendis
+          consequatur fuga? Iusto qui libero, molestias cumque, assumenda
+          possimus impedit temporibus suscipit odio laboriosam, explicabo
+          tempore blanditiis repellendus quibusdam praesentium incidunt!
+          Voluptates blanditiis perspiciatis labore est assumenda, placeat
+          sapiente esse debitis. Ducimus, optio. Nobis laudantium blanditiis
+          fugiat, temporibus iusto voluptatum omnis tempore quo, numquam quam
+          eveniet excepturi eos nulla asperiores nisi molestias commodi. Nobis
+          facere quidem dolor repellendus, soluta fugit at illo. Doloremque,
+          nesciunt expedita voluptatibus voluptate praesentium cum obcaecati
+          maxime nemo nulla modi ut est fugit quas saepe illo officia laborum at
+          dolorem dolorum quae dignissimos! Consequuntur optio, est officiis,
+          enim ea tenetur eos dignissimos necessitatibus quibusdam deserunt
+          aliquid nisi quidem quam autem reiciendis eveniet labore error illo
+          maxime corrupti inventore ex. Harum nulla illo natus, consequatur
+          deleniti itaque. Cupiditate, a ab? Est ab, officiis dolorum voluptas
+          distinctio dolorem cumque repudiandae tenetur amet laudantium? Soluta
+          molestiae nobis suscipit veniam officiis sint dignissimos velit
+          eveniet accusamus amet deleniti, voluptatum quae quibusdam temporibus
+          fugiat minus debitis fugit illo molestias voluptatem! Ea vel corporis
+          id iste vero dolores quaerat itaque odit similique maiores! Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+          reprehenderit et laborum, rem, dolore eum quod voluptate
+          exercitationem nobis, nihil esse debitis maxime facere minus sint
+          delectus velit in eos quo officiis explicabo deleniti dignissimos.
+          Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+          reiciendis ea magnam? Nulla, impedit fuga!
+        </p>
+      </div>
+      <div style="padding: 10rem 0" id="eveniment2">
+        <h3>Eveniment2</h3>
+        <p>
+          unde animi adipisci nihil laudantium blanditiis aliquam aut sapiente
+          dolorum reprehenderit consectetur possimus inventore deleniti vel!
+          Voluptatum, exercitationem. Saepe facere, totam ab, laboriosam quia ex
+          odit eos eveniet velit quo esse, mollitia soluta suscipit qui fugiat.
+          Sed esse similique doloremque sequi quos ratione quaerat rerum
+          voluptates est expedita numquam officia facere eos adipisci, qui
+          deserunt, dolorum aperiam blanditiis ab rem, ipsum modi aspernatur at!
+          Voluptates deleniti quisquam quas eligendi tenetur, dignissimos,
+          doloribus fugiat itaque omnis iure quaerat excepturi nesciunt sapiente
+          voluptatibus laborum, officia saepe veritatis quos quis! Molestiae
+          similique adipisci libero obcaecati vel aut cumque excepturi ab
+          molestias consectetur, nihil amet quis, ipsum sint quae odit natus
+          dolore! Tenetur voluptatem rem officia magnam qui voluptatum sequi
+          fuga iusto incidunt. Nesciunt perspiciatis voluptate culpa, assumenda,
+          consectetur pariatur laborum accusamus natus asperiores illo minus
+          recusandae sed. Ex iusto quam minus sequi ipsam quis culpa perferendis
+          ullam perspiciatis amet eligendi unde minima harum inventore, ratione
+          expedita maiores quae placeat enim laboriosam! A, libero esse saepe
+          quo est beatae veniam earum ut, iusto neque doloribus consequatur
+          molestias asperiores provident recusandae sed dicta. Qui quo, atque,
+          cum ex provident aspernatur voluptatibus est velit quos perspiciatis
+          dolor, eaque consectetur beatae cupiditate? Laboriosam laborum sint
+          voluptatibus doloremque quidem nostrum, omnis at inventore iusto
+          veritatis consectetur, accusamus similique rerum optio sequi aut sit
+          illum deserunt atque. Omnis facilis ab placeat cumque deserunt sint a
+          at ratione dolores fugiat sapiente eligendi, facere minima? Quisquam
+          atque dolores aliquam optio natus sit architecto itaque deleniti!
+          Itaque totam iusto esse ratione quia autem qui in ducimus consequatur,
+          animi atque quaerat mollitia, assumenda nulla expedita. Odio ipsam,
+          nostrum dolore quo molestias unde quibusdam odit eaque reiciendis
+          corporis laboriosam! Molestias laborum quos culpa dolor minus. Minus
+          quibusdam praesentium esse dicta temporibus laudantium quaerat
+          cupiditate dolores possimus dolorum commodi aspernatur exercitationem
+          tenetur eaque repellat iure assumenda, fugiat quos, vitae omnis.
+          Inventore autem aut consectetur error numquam aliquam! Doloribus earum
+          porro modi doloremque quas, quam cumque sapiente nisi quos sunt neque,
+          fuga itaque vero alias ipsam eius corrupti at magni nam eligendi
+          incidunt mollitia ab a! Nostrum voluptatem aspernatur perferendis
+          enim, deleniti consequuntur error sint optio expedita impedit qui
+          itaque quod inventore iste eos fuga ducimus tenetur? Consequuntur
+          inventore illum minima aliquam sapiente, quibusdam quos fugit velit
+          totam, corporis culpa temporibus voluptate repellendus quis voluptatum
+          ad saepe quo alias minus eos iusto beatae optio, aut laborum! Modi
+          ullam architecto consequuntur numquam unde dignissimos, minus dicta
+          deleniti nostrum minima libero odit, quas, nobis ipsa esse recusandae
+          dolores quidem et animi nam accusamus rerum. Ullam mollitia asperiores
+          incidunt dolor, odio quidem laborum at minima quo est vitae quasi
+          doloribus numquam aspernatur dolorum obcaecati. Ex, at dolore
+          voluptatem asperiores velit tenetur minima inventore quibusdam
+          incidunt laborum nobis et aliquam voluptates corrupti similique,
+          eveniet quas dolorem. Qui quam, cum reiciendis sit aperiam pariatur
+          minima porro nulla, magni dignissimos omnis quia unde error, sapiente
+          odio maiores eaque dolorem asperiores! Eum quasi distinctio beatae
+          animi alias repudiandae sunt doloribus. Nemo inventore voluptatem
+          dolore earum officia illum vitae qui. A nihil recusandae nostrum animi
+          assumenda asperiores at iste blanditiis voluptates illo omnis, amet
+          maxime sapiente reprehenderit tempore exercitationem esse? Cumque
+          incidunt debitis praesentium asperiores! Laudantium eaque quibusdam,
+          veritatis eligendi accusantium dolores! Quis nemo quo vitae possimus
+          alias atque sapiente blanditiis, asperiores voluptate hic nostrum non
+          harum, aliquid veritatis delectus sunt laboriosam, praesentium illo.
+          Debitis, saepe laborum! A earum dicta enim vero laboriosam consequatur
+          voluptates soluta. Est illo quod amet ipsam numquam, beatae dolorum
+          error ex provident omnis et blanditiis accusantium alias atque quia
+          consequatur reprehenderit ullam consequuntur recusandae labore eveniet
+          libero hic expedita. Reprehenderit sunt ratione in dolore debitis a
+          nostrum maiores officia repudiandae necessitatibus magni mollitia
+          odit, nulla dolor veniam ipsam nemo cumque sapiente amet fugiat cum
+          ipsum illo! Ut ducimus maiores iure consequuntur? Quisquam, repellat
+          hic! Totam minima voluptatum, odit nesciunt obcaecati corporis
+          accusantium consequatur iste ab ullam eveniet sit necessitatibus
+          exercitationem perferendis amet quisquam inventore, aliquam itaque
+          tenetur expedita debitis dolor. Rem qui pariatur illum, est quo
+          commodi tempora optio nisi nesciunt, ut a deleniti sit, placeat amet
+          sunt vel. Ipsum accusantium quam iure ab nam dolores cum pariatur
+          nihil, corporis quae voluptatem placeat magni natus ullam culpa
+          mollitia quibusdam sed rem nulla dicta harum aspernatur sequi quidem!
+          Assumenda quo, nobis enim quae vel repudiandae veritatis. Maxime quos
+          quibusdam nisi corrupti quasi nemo ratione laborum. Aliquam nemo,
+          officia dolores tempora eius voluptas delectus quos cumque sint quo,
+          dolore ad quasi voluptate provident reiciendis vitae possimus ex
+          nesciunt? Molestias praesentium alias, eligendi blanditiis eum velit
+          ratione! Consequatur corporis ducimus blanditiis sunt vitae optio
+          atque possimus, pariatur quas animi consequuntur soluta nihil, ipsum
+          quasi neque quod similique et, numquam nulla voluptatum omnis alias.
+          Et voluptate excepturi, placeat odio sint aut fugit nesciunt. Placeat,
+          tempore minima reiciendis sit error recusandae, dolore obcaecati
+          pariatur earum quaerat assumenda commodi dignissimos. Numquam, aliquam
+          molestiae qui error temporibus delectus deleniti rem fugiat ipsum eos
+          beatae sit, minima ex dignissimos totam natus vitae quasi? Excepturi
+          eos voluptates molestias, omnis error dolore nam asperiores porro
+          similique? Delectus vero vitae accusamus quibusdam. Dicta provident
+          nostrum quaerat rerum fugit animi suscipit delectus. Velit
+          necessitatibus voluptatem illo earum, quibusdam accusamus cum quos
+          illum. Consequatur veniam atque impedit sapiente nihil, voluptatem
+          voluptates autem vero accusantium ea? Dolor eligendi aut, nihil ipsam
+          odio aperiam doloribus molestias aliquid. Omnis odit nisi reiciendis
+          consequatur fuga? Iusto qui libero, molestias cumque, assumenda
+          possimus impedit temporibus suscipit odio laboriosam, explicabo
+          tempore blanditiis repellendus quibusdam praesentium incidunt!
+          Voluptates blanditiis perspiciatis labore est assumenda, placeat
+          sapiente esse debitis. Ducimus, optio. Nobis laudantium blanditiis
+          fugiat, temporibus iusto voluptatum omnis tempore quo, numquam quam
+          eveniet excepturi eos nulla asperiores nisi molestias commodi. Nobis
+          facere quidem dolor repellendus, soluta fugit at illo. Doloremque,
+          nesciunt expedita voluptatibus voluptate praesentium cum obcaecati
+          maxime nemo nulla modi ut est fugit quas saepe illo officia laborum at
+          dolorem dolorum quae dignissimos! Consequuntur optio, est officiis,
+          enim ea tenetur eos dignissimos necessitatibus quibusdam deserunt
+          aliquid nisi quidem quam autem reiciendis eveniet labore error illo
+          maxime corrupti inventore ex. Harum nulla illo natus, consequatur
+          deleniti itaque. Cupiditate, a ab? Est ab, officiis dolorum voluptas
+          distinctio dolorem cumque repudiandae tenetur amet laudantium? Soluta
+          molestiae nobis suscipit veniam officiis sint dignissimos velit
+          eveniet accusamus amet deleniti, voluptatum quae quibusdam temporibus
+          fugiat minus debitis fugit illo molestias voluptatem! Ea vel corporis
+          id iste vero dolores quaerat itaque odit similique maiores! Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+          reprehenderit et laborum, rem, dolore eum quod voluptate
+          exercitationem nobis, nihil esse debitis maxime facere minus sint
+          delectus velit in eos quo officiis explicabo deleniti dignissimos.
+          Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+          reiciendis ea magnam? Nulla, impedit fuga!
+        </p>
+      </div>
+    </div>
+
+    <!-- <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <footer>
+      <div class="footer-icons-container">
+        <!-- contact-info-upper-container -->
+        <div class="test">
+          <i class="fa fa-map-marker footer-icons"> </i>
+          <p>
+            Fântânele nr. 30, Cluj-Napoca <br />
+            Cluj, România, 400294
+          </p>
+        </div>
+
+        <div class="test">
+          <i class="fa fa-phone footer-icons"></i>
+          <p>0264-307030</p>
+          <p>0264-307030</p>
+        </div>
+        <div class="test">
+          <i class="fa fa fa-envelope footer-icons"></i>
+          <p>
+            mail@email.com <br />
+            sau alte link-uri date
+          </p>
+        </div>
+      </div>
+      <!-- <i class="fa fa-map-marker footer-icons"></i>
+      <i class="fa fa-phone footer-icons"></i>
+      <i class="fa fa fa-envelope footer-icons"></i> -->
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <p>Copyright &#169; 2025 DCN. All Rights Reserved.</p>
+    </footer>
+    <script src="../../script.js"></script>
+  </body>
+</html>

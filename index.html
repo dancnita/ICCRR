@@ -14,7 +14,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">
+      <div class="logo" onclick="location.href='index.html';">
         <p class="logo-text">
           INSTITUTUL DE CERCETARI IN <br />CHIMIE "RALUCA RIPAN"
         </p>
@@ -24,21 +24,24 @@
           class="iccrr-logo"
         />
       </div>
-      <div class="lang-container">
-        <a href="#">RO&ensp;</a>
-        <a href="#">EN&ensp;</a>
-        <a href="#">HU</a>
-      </div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="./pages/about.html">Despre</a></li>
-          <li><a href="./pages/resursa-umana.html">Resursa Umana</a></li>
-          <li><a href="#projects">Evenimente</a></li>
-          <li><a href="#projects">Laboratoare</a></li>
-          <li><a href="./pages/projects.html">Proiecte</a></li>
-          <li><a href="#projects">Noutati</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
+      <div class="desktop-nav-right-side">
+        <div class="lang-container">
+          <a href="#">RO&ensp;</a>
+          <a href="#">EN&ensp;</a>
+          <a href="#">HU</a>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#" class="active-menu">Acasa</a></li>
+            <li><a href="./pages/02Despre/despre.html">Despre noi</a></li>
+            <li><a href="./pages/03Cercetare/cercetare.html">Cercetare</a></li>
+            <li><a href="./pages/04Evenimente/evenimente.html">Evenimente</a></li>
+            <li><a href="./pages/05Noutati/noutati.html">Noutati</a></li>
+            <li><a href="./pages/06Proiecte/projects.html">Proiecte</a></li>
+            <li><a href="./pages/07Cariera/cariera.html">Cariera</a></li>
+            <li><a href="./pages/08Contact/contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <nav id="hamburger-nav">
@@ -49,32 +52,37 @@
           class="iccrr-logo"
         />
       </div>
-      <div class="lang-container">
-        <a href="#">RO</a>
-        <a href="#">EN</a>
-        <a href="#">HU</a>
+      <div class="hamburger-nav-right-side">
+        <div class="lang-container">
+          <a href="#">RO&ensp;</a>
+          <a href="#">EN&ensp;</a>
+          <a href="#">HU</a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html" onclick="toggleMenu()">Acasa</a></li>
+            <li>
+              <a href="./pages/02Despre/despre.html" onclick="toggleMenu()">Despre noi</a>
+            </li>
+            <li><a href="./pages/03Cercetare/cercetare.html" onclick="toggleMenu()">Cercetare</a></li>
+            <li><a href="./pages/04Evenimente/evenimente.html" onclick="toggleMenu()">Evenimente</a></li>
+            <li><a href="./pages/05Noutati/noutati.html" onclick="toggleMenu()">Noutati</a></li>
+            <li><a href="./pages/06Proiecte/projects.html" onclick="toggleMenu()">Proiecte</a></li>
+            <li><a href="./pages/07Cariera/cariera.html" onclick="toggleMenu()">Cariera</a></li>
+            <li><a href="./pages/08Contact/contact.html" onclick="toggleMenu()">Contact</a></li>
+            
+          </div>
       </div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li>
-            <a href="#experience" onclick="toggleMenu()">Resursa Umana</a>
-          </li>
-          <li><a href="#projects" onclick="toggleMenu()">Evenimente</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Laboratoare</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Noutati</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
       </div>
     </nav>
 
     <section id="profile">
+      
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">

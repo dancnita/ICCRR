@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: auto;
     /* justify-content: center; */
+    
   }
 }
 
@@ -20,13 +21,54 @@
   }
 }
 
+/* @media screen and (max-height: 800px) {  
+  .logo-text {
+    
+    display: none;
+  }
+  
+}
+
+@media screen and (max-height: 800px)and (min-width:1200px) {  
+  .lang-container {    
+    display: none;
+  }
+  
+} */
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+    
   }
   #hamburger-nav {
     display: flex;
+    height: fit-content;    
+    margin-top: 1rem;
+    /* align-items: center; */
+   
+        
   }
+
+  .iccrr-logo{
+    display: block;
+   
+    
+  }
+  .hamburger-nav-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+  }
+  .lang-container {
+    padding: 0 0 0.5rem 0;
+    
+   
+  }
+ 
   #experience,
   .experience-details-container {
     margin-top: 2rem;

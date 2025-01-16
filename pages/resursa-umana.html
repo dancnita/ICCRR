@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">
+      <div class="logo" onclick="location.href='../index.html';">
         <p class="logo-text">
           INSTITUTUL DE CERCETARI IN <br />CHIMIE "RALUCA RIPAN"
         </p>
@@ -20,43 +20,62 @@
         />
       </div>
       <div>
-        <ul class="nav-links">
-          <li><a href="../index.html">Acasa</a></li>
-          <li><a href="./about.html">Despre</a></li>
-          <li><a href="#projects">Evenimente</a></li>
-          <li><a href="#projects">Laboratoare</a></li>
-          <li><a href="./projects.html">Proiecte</a></li>
-          <li><a href="#projects">Noutati</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+        <div class="desktop-nav-right-side">
+          <div class="lang-container">
+            <a href="#">RO&ensp;</a>
+            <a href="#">EN&ensp;</a>
+            <a href="#">HU</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="../index.html">Acasa</a></li>
+  
+            <li><a href="./resursa-umana.html">Resursa Umana</a></li>
+            <li><a href="#projects">Evenimente</a></li>
+            <li><a href="#projects">Laboratoare</a></li>
+            <li><a href="./projects.html">Proiecte</a></li>
+            <li><a href="#projects">Noutati</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">
+      <div class="logo" onclick="location.href='../index.html';">
         <img
           src="../assets/iccrr-logo.jpg"
           alt="ICCRR Logo"
           class="iccrr-logo"
         />
       </div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="hamburger-nav-right-side">
+
+        <div class="lang-container">
+          <a href="#">RO&ensp;</a>
+          <a href="#">EN&ensp;</a>
+          <a href="#">HU</a>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li>
-            <a href="#experience" onclick="toggleMenu()">Resursa Umana</a>
-          </li>
-          <li><a href="#projects" onclick="toggleMenu()">Evenimente</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Laboratoare</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Noutati</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li>
+              <a href="#experience" onclick="toggleMenu()">Resursa Umana</a>
+            </li>
+            <li><a href="#projects" onclick="toggleMenu()">Evenimente</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Laboratoare</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Noutati</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
         </div>
       </div>
+      
     </nav>
 
     <section id="projects">
